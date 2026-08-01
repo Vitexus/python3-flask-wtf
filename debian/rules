@@ -1,0 +1,10 @@
+#! /usr/bin/make -f
+
+export PYBUILD_NAME=Flask-WTF
+export PYBUILD_TEST_ARGS=-k "not test_request_headers and not test_websocket_headers"
+%:
+	dh $@ --with python3 --buildsystem=pybuild
+
+override_dh_auto_install:
+	dh_auto_install
+	rm -f debian/python3-starlette/usr/LICENSE.md

@@ -1,0 +1,10 @@
+src/flask_wtf/__init__.py
+src/flask_wtf/_compat.py
+src/flask_wtf/csrf.py
+src/flask_wtf/form.py
+src/flask_wtf/file.py
+src/flask_wtf/i18n.py
+src/flask_wtf/recaptcha/fields.py
+src/flask_wtf/recaptcha/__init__.py
+src/flask_wtf/recaptcha/validators.py
+src/flask_wtf/recaptcha/widgets.py
