@@ -1,112 +1,17 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: python3-flask-wtf
-Upstream-Contact: <preferred name and address to reach the upstream project>
-Source: <url://example.com>
-#
-# Please double check copyright with the licensecheck(1) command.
+Upstream-Name: Flask-WTF
+Upstream-Contact: WTForms https://github.com/pallets-eco/flask-wtf/issues
+Source: https://github.com/pallets-eco/flask-wtf
 
-Files:     .editorconfig
-           .github/ISSUE_TEMPLATE/bug-report.md
-           .github/ISSUE_TEMPLATE/config.yml
-           .github/ISSUE_TEMPLATE/feature-request.md
-           .github/dependabot.yml
-           .github/workflows/pre-commit.yaml
-           .github/workflows/publish.yaml
-           .github/workflows/tests.yaml
-           .gitignore
-           .pre-commit-config.yaml
-           .readthedocs.yaml
-           CONTRIBUTING.rst
-           README.rst
-           docs/Makefile
-           docs/_static/flask-wtf-icon.png
-           docs/_static/flask-wtf.png
-           docs/api.rst
-           docs/changes.rst
-           docs/conf.py
-           docs/config.rst
-           docs/contributing.rst
-           docs/csrf.rst
-           docs/form.rst
-           docs/index.rst
-           docs/install.rst
-           docs/license.rst
-           docs/make.bat
-           docs/quickstart.rst
-           examples/babel/app.py
-           examples/recaptcha/app.py
-           examples/uploadr/app.py
-           pyproject.toml
-           src/flask_wtf/__init__.py
-           src/flask_wtf/_compat.py
-           src/flask_wtf/csrf.py
-           src/flask_wtf/file.py
-           src/flask_wtf/form.py
-           src/flask_wtf/i18n.py
-           src/flask_wtf/recaptcha/__init__.py
-           src/flask_wtf/recaptcha/fields.py
-           src/flask_wtf/recaptcha/validators.py
-           src/flask_wtf/recaptcha/widgets.py
-           tests/conftest.py
-           tests/test_csrf_extension.py
-           tests/test_csrf_form.py
-           tests/test_file.py
-           tests/test_form.py
-           tests/test_i18n.py
-           tests/test_recaptcha.py
-           tox.ini
-           uv.lock
-Copyright: __NO_COPYRIGHT_NOR_LICENSE__
-License:   __NO_COPYRIGHT_NOR_LICENSE__
-
-Files:     LICENSE.rst
+Files: *
 Copyright: 2010 WTForms
-License:   BSD-3-Clause
- Redistribution and use in source and binary forms, with or without
- modification, are permitted provided that the following conditions are
- met:
- .
- 1.  Redistributions of source code must retain the above copyright
- notice, this list of conditions and the following disclaimer.
- .
- 2.  Redistributions in binary form must reproduce the above copyright
- notice, this list of conditions and the following disclaimer in the
- documentation and/or other materials provided with the distribution.
- .
- 3.  Neither the name of the copyright holder nor the names of its
- contributors may be used to endorse or promote products derived from
- this software without specific prior written permission.
- .
- THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
- "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
- LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
- PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
- HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
- SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED
- TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
- PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
- LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
- NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
- SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
- .
- On Debian systems, the complete text of the BSD 3-clause "New" or "Revised"
- License can be found in `/usr/share/common-licenses/BSD'.
+License: BSD-3-Clause
 
-#----------------------------------------------------------------------------
-# xml and html files (skipped):
-#         examples/uploadr/templates/index.html
-#         examples/babel/templates/index.html
-#         examples/recaptcha/templates/index.html
-#         .github/pull_request_template.md
+Files: debian/*
+Copyright: 2026 Vítězslav Dvořák <info@vitexsoftware.cz>
+License: BSD-3-Clause
 
-#----------------------------------------------------------------------------
-# Files marked as NO_LICENSE_TEXT_FOUND may be covered by the following
-# license/copyright files.
-
-#----------------------------------------------------------------------------
-# License file: LICENSE.rst
- Copyright 2010 WTForms
- .
+License: BSD-3-Clause
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions are
  met:
@@ -133,3 +38,6 @@ License:   BSD-3-Clause
  LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
  NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ .
+ On Debian systems, the complete text of the BSD 3-clause "New" or "Revised"
+ License can be found in `/usr/share/common-licenses/BSD'.
