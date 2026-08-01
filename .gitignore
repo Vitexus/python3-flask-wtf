@@ -16,3 +16,12 @@ __pycache__/
 .coverage.*
 /htmlcov/
 /.pybuild/
+
+# Debian build artifacts
+/debian/python3-flask-wtf/
+/debian/files
+/debian/files.new
+/debian/debhelper-build-stamp
+/debian/*.substvars
+/debian/*.debhelper.log
+/debian/*.debhelper

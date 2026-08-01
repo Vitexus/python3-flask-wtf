@@ -1,0 +1,15 @@
+#!/bin/sh
+set -efu
+
+# Create temporary directory
+WORKDIR=$(mktemp -d)
+trap 'rm -rf "$WORKDIR"' EXIT
+
+# Copy tests to the working directory
+cp -r tests "$WORKDIR/"
+
+# Go to the working directory
+cd "$WORKDIR"
+
+# Run pytest on the tests
+pytest tests
